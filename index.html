@@ -1,4 +1,4 @@
-     <!DOCTYPE html>
+  <!DOCTYPE html>
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
@@ -125,10 +125,6 @@
       const completados = new Set();
 
       function puedeDesbloquear(curso) {
-        if (curso.nombre.includes("Electivo")) {
-  return creditosTotales >= 220;
-}
-
         if (curso.requisitosEspeciales) {
           if (curso.nombre === "PRÁCTICA PROFESIONAL I") {
             const claves = ["ANÁLISIS CONTABLE", "AUDITORÍA II", "COSTOS Y PRESUPUESTOS", "METODOS CUANTITATIVOS I"];
